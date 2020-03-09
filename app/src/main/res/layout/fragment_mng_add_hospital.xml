@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MngAddHospitalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/mainbg"
+        tools:ignore="VectorDrawableCompat"
+        />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="70dp"
+        android:src="@drawable/tab_btn_left_enabled"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="30dp"
+            android:gravity="center"
+            >
+
+
+
+
+            <EditText
+                android:id="@+id/hospital_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="নাম"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/hospital_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="ওয়েবসাইট"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/hospital_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="মোবাইল নাম্বার"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <EditText
+                android:id="@+id/hospital_lat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="অক্ষাংশ"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="15dp"
+                />
+            <EditText
+                android:id="@+id/hospital_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="দ্রাঘিমা"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                />
+            <Button
+                android:id="@+id/btn_lat_long"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="ঠিকানা বাছাই করুন"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corners_dark"/>
+
+            <Button
+                android:id="@+id/btn_add_hospital"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="যুক্ত করুন"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corners_dark"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

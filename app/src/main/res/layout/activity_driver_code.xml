@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driver_Code">
+
+    <ImageView
+        android:id="@+id/bg_driver_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mainbg"
+        tools:ignore="VectorDrawableCompat"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="30dp"
+        android:src="@drawable/tab_btn_left_enabled"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="30dp"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/driver_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="যাচাইকরণ কোড"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/btn_driver_add"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="যাচাই করুন"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corners_dark"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/shadow_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="30dp"
+        android:src="@drawable/tab_btn_left_enabled"
+        />
+
+</RelativeLayout>

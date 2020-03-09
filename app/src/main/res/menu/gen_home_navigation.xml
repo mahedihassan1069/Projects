@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_near_me_gen"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_search_gen"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+        android:title="Hospital" />
+
+    <item
+        android:id="@+id/navigation_requests_gen"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Ambulance" />
+
+    <item
+        android:id="@+id/navigation_profile_gen"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Profile" />
+
+</menu>

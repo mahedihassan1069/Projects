@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+    <ImageView
+        android:id="@+id/imageViewAppName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mainbg"
+        tools:ignore="VectorDrawableCompat"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/s1"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:text="সাইন আপ"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corners_dark"
+        android:shadowColor="@color/grey"
+        android:shadowDy="6"
+        />
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="185dp"
+        android:text="সাইন ইন"
+        android:textColor="@color/dark_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corners"
+        android:shadowColor="@color/grey"
+        android:shadowDy="6"/>
+
+    <TextView
+        android:id="@+id/driver_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="23dp"
+        android:text="নতুন ড্রাইভার লগইন"
+        android:textAlignment="center"
+        android:textColor="@color/dark_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

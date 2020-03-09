@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mng_nav_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="@string/m_nav_home" />
+    <item
+        android:id="@+id/mng_nav_addhospital"
+        android:icon="@drawable/ic_local_hospital_black_24dp"
+        android:title="@string/nav_addHospital" />
+    <item
+        android:id="@+id/mng_nav_adddriver"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="@string/nav_addDriver" />
+    <item
+        android:id="@+id/mng_nav_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/nav_profile" />
+
+</menu>

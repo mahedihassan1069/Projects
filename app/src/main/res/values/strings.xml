@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">সেবা</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_direction_api">AIzaSyBw_x83riBZbGtTEfdma9mQyrcgqzL8Phc</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_hospital">Hospital</string>
+    <string name="nav_ambulance">Ambulance</string>
+    <string name="nav_profile">Profile</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="nav_addHospital">Add Hospital</string>
+    <string name="nav_addDriver">Add Driver</string>
+    <string name="m_nav_home">Home</string>
+
+    <string name="pick_up_req">Pickup Request</string>
+    <string name="History">History</string>
+    <string name="title_activity_driver_tracking">Map</string>
+    <string name="title_activity_trip_detail">Map</string>
+
+</resources>

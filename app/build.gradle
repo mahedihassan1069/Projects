@@ -1,0 +1,122 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "e.user.madiambu"
+        minSdkVersion 27
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation "com.google.android.gms:play-services-maps:17.0.0"
+
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+
+
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    implementation 'com.hbb20:ccp:2.1.9'
+    implementation 'pub.devrel:easypermissions:0.4.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    //new depen
+
+    //metarial edit text..
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+
+    //add library for firebase
+    implementation 'androidx.annotation:annotation:1.1.0'
+
+    //loading dialog dependency
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+
+    //for maps
+
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+
+    //geofire
+    implementation 'com.firebase:geofire-android:3.0.0'
+
+
+    //for rettrofit install..
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+
+    //MIGRATE SDK...
+    implementation 'com.google.android.libraries.places:places:2.1.0'
+    implementation 'com.karumi:dexter:5.0.0'
+
+    //tutorial 9 dpendecy..
+    //for cloude messagesing
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    //retrofit gson convrter..
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    //circle imageView..
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+
+    api 'com.theartofdev.edmodo:android-image-cropper:2.5.0'
+
+
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '26.0.0'
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DriverHomeFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_panel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- <EditText
+             android:id="@+id/edtPlace"
+             android:hint="Enter Your PickUp Location"
+             android:layout_margin="7dp"
+             android:layout_weight="5"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>-->
+
+        <fragment
+            android:id="@+id/d_place_autocomplete_fragment"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="5"/>
+
+
+        <!--<Button
+            android:id="@+id/go"
+            android:text="GO"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+-->
+    </LinearLayout>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_below="@+id/layout_panel"
+        android:id="@+id/gmap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@color/ballReleaseColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <!-- <com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch
+                 android:id="@+id/location_switch"
+                 android:layout_width="0dp"
+                 android:layout_weight="2"
+                 android:layout_height="wrap_content"
+                 app:icon_release="@drawable/ic_location_off"
+                 app:icon_press="@drawable/ic_location_on"
+                 app:base_release_color="@color/baseReleaseColor"
+                 app:base_press_color="@color/basePress"
+                 app:ball_release_color="@color/ballReleaseColor"
+                 app:ball_press_color="@android:color/white"
+                 />-->
+
+            <Switch
+                android:id="@+id/location_switch"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_find_user"
+                android:layout_weight="7"
+                android:text="FIND USER"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

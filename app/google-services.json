@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "167540898241",
+    "firebase_url": "https://madiambu.firebaseio.com",
+    "project_id": "madiambu",
+    "storage_bucket": "madiambu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167540898241:android:673c6b89a79312fb7f5740",
+        "android_client_info": {
+          "package_name": "com.example.riderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167540898241-5gru8sg8qk8j1cr4vm1gsv88lv0j8j42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riderapp",
+            "certificate_hash": "a00e8cbb2648a9a2977dac016b48a6652e119ec6"
+          }
+        },
+        {
+          "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvP4XBjTy7Sh_-nS2_xM2J-HHyYfQWtFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167540898241:android:c7bc6e00e265a9807f5740",
+        "android_client_info": {
+          "package_name": "com.example.ubarclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167540898241-kj48t0biv6dak8adcmqb0en87ngc5rqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubarclone",
+            "certificate_hash": "a00e8cbb2648a9a2977dac016b48a6652e119ec6"
+          }
+        },
+        {
+          "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvP4XBjTy7Sh_-nS2_xM2J-HHyYfQWtFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167540898241:android:2d25941db7c203857f5740",
+        "android_client_info": {
+          "package_name": "com.example.uberrider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167540898241-3ruef7d9dsjgmo3injtrotd898gunj8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uberrider",
+            "certificate_hash": "a00e8cbb2648a9a2977dac016b48a6652e119ec6"
+          }
+        },
+        {
+          "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvP4XBjTy7Sh_-nS2_xM2J-HHyYfQWtFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167540898241:android:6e6945e0ae8ed0727f5740",
+        "android_client_info": {
+          "package_name": "e.user.madiambu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167540898241-3037ldr4d150ik02esrifo9ou9mt2b81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.user.madiambu",
+            "certificate_hash": "a00e8cbb2648a9a2977dac016b48a6652e119ec6"
+          }
+        },
+        {
+          "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvP4XBjTy7Sh_-nS2_xM2J-HHyYfQWtFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167540898241-d6cetdcn869m1agrj1ilgrqtalqsc5b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
